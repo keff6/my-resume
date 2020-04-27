@@ -97,6 +97,10 @@ header .major {
   padding: 10px 20px 5px 20px;
 }
 
+.right-section .skills {
+  margin-top: 15px;
+}
+
 .highlights {
   font-family: Helvetica, sans-serif;
   font-size: small;
@@ -189,6 +193,10 @@ ul {
   font-size: small;
 }
 
+.education-card .institution .date{
+  margin-right: 15px;
+}
+
 .info-item {
   color: #53555b;
   font-family: Helvetica, sans-serif;
@@ -207,11 +215,12 @@ ul {
   font-family: Helvetica, sans-serif;
   font-size: small;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .skill-level-container {
   display: flex;
+  align-items: center;
 }
 
 .disc {
@@ -244,10 +253,9 @@ ul {
   left: 25%;
 }
 
-@media screen and (max-width: 800px) {
-  .contents { display: block; }
-  button { top: 55px; }
-  button img { height: 30px; }
-  .skill-card { padding: 10px 0; }
-  .main-section, .right-section { display: block; width: 100%; }
-}
+@media only screen and (max-width: 800px) {
+    .contents { display: block; }
+    button { display: none; }
+    .skill-card { padding: 10px 0; }
+    .main-section, .right-section { display: block; width: 100%; }
+  }
