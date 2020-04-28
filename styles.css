@@ -27,6 +27,7 @@ button img {
 #main-container {
   background-image: url(./assets/img/background.jpg);
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   font-weight: 400;
   justify-content: center;
