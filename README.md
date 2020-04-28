@@ -14,4 +14,6 @@ Resume uses the template [html-resume-template](https://github.com/keff6/html-re
 + [html2canvas](http://html2canvas.hertzen.com/documentation/)
 + javascript
 
+### Live demo:
 
+[Here](https://keff6.github.io/my-resume/) you can visit my resume online.
