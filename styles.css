@@ -98,10 +98,6 @@ header .major {
   padding: 10px 20px 5px 20px;
 }
 
-.right-section .skills {
-  margin-top: 15px;
-}
-
 .highlights {
   font-family: Helvetica, sans-serif;
   font-size: small;
@@ -171,6 +167,7 @@ ul {
 .certificate-card {
   color: #53555b;
   font-family: Helvetica, sans-serif;
+  font-size: small;
   margin: 8px 0;
 }
 
@@ -194,7 +191,8 @@ ul {
   font-size: small;
 }
 
-.education-card .institution .date{
+.education-card .institution .date,
+.certificate-card .date {
   margin-right: 15px;
 }
 
@@ -216,7 +214,7 @@ ul {
   font-family: Helvetica, sans-serif;
   font-size: small;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 15px 0 10px;
 }
 
 .skill-level-container {
