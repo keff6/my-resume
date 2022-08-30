@@ -122,6 +122,12 @@ li {
   font-weight: 400;
 }
 
+.subDate {
+  color: #919191;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
 .right-section {
   background-color: #f5f5f5;
   display: inline-block;
@@ -138,6 +144,51 @@ li {
   font-family: Helvetica, sans-serif;
   font-size: 17px;
 }
+
+/*Multy bullet attempt */
+.experience-card ul {
+  list-style: none;
+}
+
+.experience-card ul.multi-titles li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom. */
+    margin-bottom: 0;  /* This overrides previously specified margin-bottom */
+    /* padding-bottom: 2.5em; */
+    
+}
+
+.experience-card ul.multi-titles li:after {
+  /* bullets */
+  /* content: url(./assets/img/dot.png); */
+  content: url(./assets/img/icons8-white-circle-12.png);
+  
+  position: absolute;
+  left: -20px; /*adjust manually*/
+  top: 0px;
+}
+
+.experience-card ul.multi-titles li:before {
+  /* lines */
+  content: "";
+  position: absolute;
+  left: -15px; /* adjust manually */
+  border-left: 2px solid #ada5a5;
+  height: 100%;
+  width: 1px;
+}
+
+.experience-card ul.multi-titles li:first-child:before {
+ /* first li's line */
+ top: 6px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+.experience-card ul.multi-titles li:last-child:before {
+  /* last li's line */
+ height: 6px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}
+
+/*Multy bullet attempt */
 
 .experience-card .company {
   font-family: Helvetica, sans-serif;
