@@ -62,14 +62,15 @@ button img {
 }
 
 header {
-  background-color: rgb(49, 63, 78);
+  background-color: white;
   height: 9%;
   padding: 12px 20px;
   position: relative;
+  border-bottom: 2px solid #313f4e14;
 }
 
 header .name, header .major {
-  color: white;
+  color: rgb(49, 63, 78);
   font-family: Helvetica, sans-serif;
   font-weight: 400;
   margin: 0;
@@ -129,9 +130,10 @@ li {
 }
 
 .right-section {
-  background-color: #f5f5f5;
+  background-color: white;
   display: inline-block;
   width: 30%;
+  border-left: 2px solid #313f4e14;
 }
 
 .experience-card {
