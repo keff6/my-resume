@@ -63,35 +63,36 @@ button img {
 
 header {
   background-color: white;
-  height: 9%;
+  /* height: 9%; */
+  height: 12%;
   padding: 12px 20px;
   position: relative;
   border-bottom: 2px solid #f1f1f1;
+
 }
 
 header .name, header .major {
   color: rgb(49, 63, 78);
   font-family: Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 }
 
 header .major {
   font-weight: 100;
-  margin-top: 10px;
 }
 
 .contents {
   box-sizing: border-box;
   display: flex;
-  height: 91%;
+  height: 88%;
   width: 100%;
 }
 
 .main-section {
   background-color: white;
   display: inline-block;
-  width: 70%;
+  width: 60%;
 }
 
 .main-section > section,
@@ -121,6 +122,7 @@ li {
   font-family: Tahoma, sans-serif;
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 16px;
 }
 
 .subDate {
@@ -132,7 +134,7 @@ li {
 .right-section {
   background-color: white;
   display: inline-block;
-  width: 30%;
+  width: 40%;
   border-left: 2px solid #f1f1f1;
 }
 
@@ -148,9 +150,9 @@ li {
 }
 
 /*Multy bullet attempt */
-.experience-card ul {
+/* .experience-card ul {
   list-style: none;
-}
+} */
 
 .experience-card ul.multi-titles li {
     position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
@@ -303,6 +305,38 @@ ul {
   position: absolute;
   top: 25%;
   left: 25%;
+}
+
+.info-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.info-bite {
+  display: inline-flex;
+  font-size: small;
+  align-items: anchor-center;
+}
+
+.small-icon {
+  height: 12px;
+  margin-right: 6px;
+}
+
+.skills-container {
+  flex-flow: row wrap;
+  display: flex;
+  column-gap: 10px;
+  row-gap: 10px;
+  /* margin-top: 16px; */
+}
+
+.skill-box {
+  border: 1px solid black;
+  padding: 6px;
+  position: relative;
+  display: flex;
 }
 
 @media only screen and (max-width: 800px) {
