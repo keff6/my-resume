@@ -357,8 +357,24 @@ ul {
 }
 
 @media only screen and (max-width: 800px) {
-    .contents { display: block; }
+    .contents { display: block; width: auto; }
     button { display: none; }
     .skill-card { padding: 10px 0; }
-    .main-section, .right-section { display: block; width: 100%; }
+    .main-section, .right-section { display: block; width: auto; padding: 8px }
+    .main-section > section, .right-section > section {
+    padding: 10px 10px 5px 10px;
+}
+    header {
+      height: auto;
+      padding: 20px;
+      padding-bottom: 0;
+      
+    }
+    header .name {
+      font-size: 30px;
+    }
+    .info-line, .info-bite  {
+      display: block;
+    }
+    
   }
